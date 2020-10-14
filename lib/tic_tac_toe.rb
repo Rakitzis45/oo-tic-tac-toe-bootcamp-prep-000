@@ -71,13 +71,13 @@ class TicTacToe
         "O"
         end
       end
-       
+
       def won?
         WIN_COMBINATIONS.each do |winner|
           index_0 = winner[0]
           index_1 = winner[1]
           index_2 = winner[2]
-      
+
           position_1 = board[index_0]
           position_2 = board[index_1]
           position_3 = board[index_2]
