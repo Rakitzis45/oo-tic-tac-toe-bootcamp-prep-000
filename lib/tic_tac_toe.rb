@@ -123,8 +123,9 @@ class TicTacToe
   end
 ​
   def winner
-    self.won?
-    winner_name
+    if winner = won?
+      @board[winner.first]
+    end
   end
 ​
   def play
