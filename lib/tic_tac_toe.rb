@@ -61,7 +61,6 @@ class TicTacToe
       display_board
     else
       turn
-      user_input = gets.chomp
     end
   end
 ​
