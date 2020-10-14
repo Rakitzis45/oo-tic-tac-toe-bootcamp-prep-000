@@ -60,8 +60,7 @@ class TicTacToe
       move(user_index, current_player)
       display_board
     else
-      puts "That is not a valid number"
-      puts "What position would you like to play? Enter a number 1-9"
+      turn
       user_input = gets.chomp
     end
   end
